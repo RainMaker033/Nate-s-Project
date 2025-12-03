@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice - SAT Premier Prep</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <a href="index.html" id="back-link" class="back-btn">← Back</a>
+    <h1 id="topic-title">Practice</h1>
+    <span id="question-counter" class="question-counter"></span>
+  </header>
+
+  <main class="practice-main">
+    <div id="loading" class="loading">Loading questions...</div>
+
+    <div id="question-card" class="question-card" style="display: none;">
+      <div class="question-header">
+        <span id="question-number">Question 1</span>
+      </div>
+      <div class="question-content">
+        <p id="question-text"></p>
+      </div>
+      <div id="answers-container" class="answers-container"></div>
+
+      <div id="result-card" class="result-card" style="display: none;">
+        <h3 id="result-title"></h3>
+        <p id="rationale"></p>
+      </div>
+
+      <div class="button-container">
+        <button id="submit-btn" class="action-btn">Check Answer</button>
+        <button id="next-btn" class="action-btn" style="display: none;">Next Question →</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>2025 SAT Premier Prep</p>
+  </footer>
+
+  <script src="algebra.js"></script>
+  <script src="geometry.js"></script>
+  <script src="advanced-math.js"></script>
+  <script src="data-analysis.js"></script>
+  <script src="information-ideas.js"></script>
+  <script src="craft-structure.js"></script>
+  <script src="expression-ideas.js"></script>
+  <script src="conventions.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
